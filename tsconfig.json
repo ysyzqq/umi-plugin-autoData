@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "sourceMap": false,
+      "noImplicitAny": false,
+      "experimentalDecorators": true,
+      "module": "es6",
+      "target": "es5",
+      "jsx": "react",
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": false,
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "lib": [
+        "es5",
+        "dom",
+        "dom.iterable",
+        "es2015"
+      ],  
+      "importHelpers": true,
+      "paths": {
+        "*" : ["types/*"],
+      },
+    },
+    "include": [
+      "src/**/*",
+    ],
+    "exclude": ["node_modules"]
+}
+  
