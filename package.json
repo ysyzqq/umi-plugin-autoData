@@ -1,5 +1,5 @@
 {
-  "name": "umi-plugin-autoData",
+  "name": "umi-plugin-autodata",
   "version": "1.0.0",
   "description": "autoData",
   "main": "./lib/index.js",
