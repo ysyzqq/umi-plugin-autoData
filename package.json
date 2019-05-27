@@ -43,5 +43,9 @@
     "apollo"
   ],
   "author": "ysy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ysyzqq/umi-plugin-autoData.git"
+  },
   "license": "ISC"
 }
