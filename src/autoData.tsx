@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import {isPlainObject, isFunction} from 'lodash';
-import {SearcherItem} from 'umi-plugin-apollo';
+import {SearcherItem} from 'umi-plugin-autodata';
 import qs from 'qs';
 import Form, {FormComponentProps, FormCreateOption} from 'antd/lib/form';
 import 'antd/lib/form/style';

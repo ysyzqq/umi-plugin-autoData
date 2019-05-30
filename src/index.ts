@@ -1,7 +1,7 @@
 import {join, dirname} from 'path';
 import {writeFileSync, readFileSync} from 'fs';
 import { findJS } from 'umi-utils';
-import { PluginAPI, ReducerArg } from 'umi-plugin-apollo';
+import { PluginAPI, ReducerArg } from 'umi-plugin-autodata';
 
 
 export default function UmiPluginApollo(api: PluginAPI, opts: any) {

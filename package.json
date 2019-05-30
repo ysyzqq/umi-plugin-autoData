@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run clean && cross-env NODE_ENV=production rollup --config ./rollup.config.js",
+    "build": "npm run clean && cross-env NODE_ENV=production rollup --config rollup.config.js",
     "clean": "rimraf lib"
   },
   "dependencies": {
@@ -33,6 +33,7 @@
     "rimraf": "^2.6.2",
     "rollup": "^0.64.1",
     "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-multi-entry": "^2.1.0",
     "rollup-plugin-typescript2": "^0.16.1",
     "tslib": "^1.9.3",
     "typescript": "^3.0.1",
